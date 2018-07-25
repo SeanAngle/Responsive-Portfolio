@@ -1,0 +1,188 @@
+#headercontainer{
+    width: 100%;
+    height: 100px;
+    background: white;
+    border-bottom: 2px solid #dcd4d4;
+}
+
+#namenavcontainer{
+    width: 960px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#name{
+    float: left;
+    width: 200px;
+    padding-top: 30px;
+    background: teal;
+    height: 70px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+#nav{
+    float: right;
+    padding-top: 30px;
+}
+
+body{
+    background-image: url(../images/qbkls.png);
+    margin: 0 0;
+}
+
+#bodycontainer{
+    padding: 10px;
+    width: 960px;
+    background: white;
+    margin: 100px auto;
+}
+
+
+#mypic{
+    width: 150px;
+    float: left;
+    margin: 15px;
+    padding-top: 20px;
+    height: 240px;
+}
+
+p{
+    margin: 15px;
+    padding-top: 20px;
+}
+
+hr{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+#footer{
+    height: 50px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: darkgray;
+    position: fixed;
+    border-top: 5px solid teal;
+}
+
+#messagebox{
+    width: 99%;
+    height: 200px;
+}
+
+#submitbutton{
+    background-color: teal;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#contactnamebox{
+    width: 99%;
+}
+
+#contactemailbox{
+    width: 99%;
+}
+
+h1{
+    color: teal;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#formbox{
+    margin: 15px;
+}
+
+.placeholderimage{
+    float: left;
+    position: relative;
+    width: 30%;
+    height: 200px;
+    margin: 40px;
+}
+
+h3{
+
+}
+
+
+#porfoliobodycontainer{
+    box-sizing: border-box;
+    width: 960px;
+    margin: 120px auto;
+    background: white;
+    height: 900px;
+    position: relative;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.placeholderimage1{
+    background-image: url(../images/newyorknewyorkplaceholder.jpg)
+
+}
+
+.placeholderimage2{
+    background-image: url(../images/macbookplaceholder.jpg)
+
+}
+
+.placeholderimage3{
+    background-image: url(../images/codingplaceholder.jpg)
+
+}
+
+.placeholderimage4{
+    background-image: url(../images/Businessplaceholder.jpg)
+
+}
+
+.placeholderimage5{
+    background-image: url(../images/Austin-Skyline-placeholder.jpg)
+
+}
+
+.banner{
+    color: white;
+    background-color: teal;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    height: 35px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 768px){
+    #bodycontainer{
+        width: 100%;
+        padding: 15px;
+    }
+    #mypic{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 435px){
+    #bodycontainer{
+        width: 100%;
+    }
+}
